@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <div id = "form-container">
+        <div class = "left-side">
+            <img class = "class-image"
+            src ="https://images.pexels.com/photos/31682634/pexels-photo-31682634.jpeg?_gl=1*1m6hwot*_ga*MjAyNDcxNjI0Ny4xNzkxMzMxNTgw*_ga_8JE65Q40S6*czE3OTEzMzE1ODAkbzEkZzEkdDE3OTEzMzMyNDIkajU5JGwwJGgw">
+            <div class="card-logo">
+                <img class = "Odin-img" src="http://raw.githubusercontent.com/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png">
+                <span class = "card-text">DDK</span>
+            </div>      
+        </div>
+        <div class = "right-side">
+            <div class = "section-one">
+                <h1>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <span class = "word1">now</span> to get started.</h1>
+                <h1>You know <span class = "word1">you</span> want to.</h1>
+            </div>
+            <div class = "section-two">
+                <h1 class = "Title">Let's do this!</h1>
+                <form>
+                    <div class = "left-info">
+                        <p>
+                            <label for = "name">FIRST NAME</label>
+                            <p></p>
+                            <input type="text" id="name" name="firstname" required />
+                        </p>
+                        <div class = "spacing"></div>
+                        <p>
+                            <label for="mail">EMAIL</label>
+                            <p></p>
+                            <input type="email" id="mail" name="user-mail" value="test@example.com" required />
+                        </p>
+                        <div class = "spacing"></div>
+                        <p>               
+                            <label for="pwd">PASSWORD</label>
+                            <p></p>
+                            <input type="password" id="pwd" name="password" required />
+                        </p>
+                    </div>
+                    <div class = "right-info">
+                            <p>
+                                <label for="name">LAST NAME</label>
+                                <p></p>
+                                <input type="text" id="name" name="lastname" required />
+                            </p>
+                            <div class = "spacing"></div>
+                            <p>
+                                <label for="number">PHONE NUMBER</label>
+                                <p></p>
+                                <input type="tel" id="number" name="phone-number" required />
+                            </p>
+                            <div class = "spacing"></div>
+                            <p>               
+                                <label for="pwd">CONFIRM PASSWORD</label>
+                                <p></p>
+                                <input type="password" id="pwd" name="password" required />
+                            </p>                       
+                    </div>
+                </form>
+            </div>
+            <div class = "section-three">
+                <p>
+                    <button class = "button">Create Account</button>
+                </p>
+                <div class = "login-option">
+                    <p>Already have an account? <span class = "word2">Log in</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
