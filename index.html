@@ -1,78 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign-up Form</title>
-    <link rel = "stylesheet" href = "style.css">
-</head>
-<body>
-    <div id = "form-container">
-        <div class = "left-side">
-            <img class = "class-image"
-            src ="https://images.pexels.com/photos/31682634/pexels-photo-31682634.jpeg?_gl=1*1m6hwot*_ga*MjAyNDcxNjI0Ny4xNzkxMzMxNTgw*_ga_8JE65Q40S6*czE3OTEzMzE1ODAkbzEkZzEkdDE3OTEzMzMyNDIkajU5JGwwJGgw">
-            <div class="card-logo">
-                <img class = "Odin-img" src="http://raw.githubusercontent.com/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png">
-                <span class = "card-text">DDK</span>
-            </div>      
-        </div>
-        <div class = "right-side">
-            <div class = "section-one">
-                <h1>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <span class = "word1">now</span> to get started.</h1>
-                <h1>You know <span class = "word1">you</span> want to.</h1>
+<html>
+    <header>
+        <meta charset="UTF-8">
+        <title>Landing Page</title>
+    </header>
+    <body>
+        <link rel="stylesheet" href="styles.css">
+        <div class = "first">
+            <div class = "Header">
+                <div class = "Header-left">Header Logo</div>
+                <ol class = "Header-right">
+                    <li>header link one</li>
+                    <li>header link two</li>
+                    <li>header link three</li>
+                </ol>
             </div>
-            <div class = "section-two">
-                <h1 class = "Title">Let's do this!</h1>
-                <form>
-                    <div class = "left-info">
-                        <p>
-                            <label for = "name">FIRST NAME</label>
-                            <p></p>
-                            <input type="text" id="name" name="firstname" required />
-                        </p>
-                        <div class = "spacing"></div>
-                        <p>
-                            <label for="mail">EMAIL</label>
-                            <p></p>
-                            <input type="email" id="mail" name="user-mail" value="test@example.com" required />
-                        </p>
-                        <div class = "spacing"></div>
-                        <p>               
-                            <label for="pwd">PASSWORD</label>
-                            <p></p>
-                            <input type="password" id="pwd" name="password" required />
-                        </p>
+            <div class = "First-body">
+                <div class = "Part-one">
+                    <div class = "Main-text">My awesome website</div>
+                    <div class = "Sub-text">This is my own personal website that I built from scratch, it's not much, but it's a good start
+                        for my web development journey.
                     </div>
-                    <div class = "right-info">
-                            <p>
-                                <label for="name">LAST NAME</label>
-                                <p></p>
-                                <input type="text" id="name" name="lastname" required />
-                            </p>
-                            <div class = "spacing"></div>
-                            <p>
-                                <label for="number">PHONE NUMBER</label>
-                                <p></p>
-                                <input type="tel" id="number" name="phone-number" required />
-                            </p>
-                            <div class = "spacing"></div>
-                            <p>               
-                                <label for="pwd">CONFIRM PASSWORD</label>
-                                <p></p>
-                                <input type="password" id="pwd" name="password" required />
-                            </p>                       
-                    </div>
-                </form>
-            </div>
-            <div class = "section-three">
-                <p>
-                    <button class = "button">Create Account</button>
-                </p>
-                <div class = "login-option">
-                    <p>Already have an account? <span class = "word2">Log in</span></p>
+                    <div class="Sign-up-one">Sign up</div>
                 </div>
+                <img src="https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="The sea" width="550" height="250">
             </div>
         </div>
-    </div>
-</body>
+        <div class = "second">
+            <div class = "Second-header">I really like cars. Here are some trivias about them.</div>
+                <ol class = "Car-images">
+                    <li><img src ="https://images.pexels.com/photos/10394772/pexels-photo-10394772.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Lambo" width="300" height="200"><div class = "text">This is a Lamborghini, one of the most famous supercar in the world, and my personal favorite.</div></li>
+                    <li><img src ="https://images.pexels.com/photos/5759866/pexels-photo-5759866.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Ferrari" width="300" height="200"><div class = "text">This is a Ferrari, a direct competitor to the Lambo, always in red and always elegant.</div></li>
+                    <li><img src ="https://cdn.pixabay.com/photo/2017/11/25/23/41/aston-martin-db11-2977862_1280.jpg" alt="Aston" width="300" height="200"><div class = "text">This is an Aston Martin, James Bond's spy car: sleek, fast, and also deadly.</div></li>
+                    <li><img src ="https://images.pexels.com/photos/8060365/pexels-photo-8060365.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Nissan" width="300" height="200"><div class = "text">This is a Nissan, a Skyline GTR to be exact, also nicknamed as: "the Godzilla."</div></li>
+                </ol>
+        </div>
+        <div class = "third">
+            <div class = "Comments">Why do we fall, Bruce? So we can learn to pick ourselves up.</div>
+            <div class = "Quoter">-Thomas Wayne</div>
+        </div>
+        <div class = "fourth">
+            <div class = "Big-container">
+                <div class = "Small-container-one">
+                    <div class = "Fourth-Motto">Call to action! It's time!</div>
+                    <div class = "Sign-up-quote">Sign up for our product by clicking that button right over there!</div>
+                </div>
+                <div class = "Sign-up-two">Sign up</div>
+            </div>
+        </div>
+        <div class = "Footer">
+            <div class = "Copyright">Copyright Ⓒ Odin Project 2023</div>
+        </div>
+    </body>
 </html>
